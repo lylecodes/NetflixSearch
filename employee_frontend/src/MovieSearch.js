@@ -19,7 +19,7 @@ function Department() {
         setDepartmentsList(data);
       });
   };
-
+  console.log("here");
   const getMovies = () => {
     fetch(`${process.env.REACT_APP_MOVIEGET}`, {
       method: "GET",
